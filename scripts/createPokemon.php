@@ -4,11 +4,11 @@ require __DIR__ . "/../vendor/autoload.php";
 
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
-use Ioser\pokemon\ORM\Account;
+use Ioser\pokemon\ORM\Pokemon;
 
 if ($argc < 3)
 {
-    echo "Parameters: [login name] [password]\n";
+    echo "Parameters: [name] [description]\n";
     die;
 }
 
@@ -20,12 +20,12 @@ $metadataConfig = Setup::createAnnotationMetadataConfiguration($config["doctrine
 // obtaining the entity manager
 $entityManager = EntityManager::create($config["db"]["pokemon"], $metadataConfig);
 
-$user = new Account();
+$pokemon = new Pokemon();
 
-$user->setLoginName($argv[1]);
-$user->setPassword($argv[2]);
+$pokemon->setName($argv[1]);
+$pokemon->setDescription($argv[2]);
 
-$entityManager->persist($user);
+$entityManager->persist($pokemon);
 $entityManager->flush();
 
 
