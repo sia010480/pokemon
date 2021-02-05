@@ -1,0 +1,32 @@
+{
+    "name": "ioser/pokemon",
+    "authors": [
+        {
+            "name": "Ionut Serbanescu",
+            "email": "ionut.serbanescu@ioser-esoft.eu",
+            "homepage": "https://ioser-esoft.eu",
+            "role": "CEO and Developer"
+        }
+    ],
+   "require": {
+        "php": "^5.5 || ^7.0",
+        "doctrine/orm": "2.*",
+        "symfony/dotenv": "*",
+        "symfony/debug": "*",
+        "symfony/yaml": "*",
+        "symfony/flex": "*",
+        "symfony/config": "*",
+        "symfony/event-dispatcher": "*",
+        "symfony/framework-bundle": "*"
+    },
+    
+     "autoload": {
+        "psr-4": {"Ioser\\pokemon\\": "src/"}
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
+    }
+}

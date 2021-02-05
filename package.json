@@ -1,0 +1,48 @@
+{
+  "name": "ioser/pokemon",
+  "description": "Pokemon test app",
+  "version": "0.1.0",
+  "homepage": "http://pokemon.eu",
+  "author": {
+    "name": "Ionut Serbanescu",
+    "email": "ionut.serbanescu@ioser-esoft.eu"
+  },
+  "license": "",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {},
+  "_npmVersion": "5.4.2",
+  "_nodeVersion": "6.9.5",
+  "maintainers": [
+    {
+      "name": "Ionut Serbanescu",
+      "email": "ionut.serbanescu@ioser-esoft.eu"
+    },
+    {
+      "name": "Ionut Serbanescu",
+      "email": "ionut.serbanescu@geofly.eu"
+    }
+  ],
+  "directories": {},
+  "dependencies": {
+    "@types/es6-shim": "^0.31.41",
+    "@types/html2canvas": "0.0.36",
+    "@types/jquery": "^3.5.5",
+    "@types/jstree": "^3.3.40",
+    "@types/ol": "^6.4.2",
+    "bootstrap": "^4.5.3",
+    "css-line-break": "^1.1.1",
+    "html2canvas": "^1.0.0-rc.7",
+    "jqtree": "^1.4.11",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "jstree": "^3.3.10",
+    "pbf": "^3.2.1",
+    "popper.js": "^1.16.1",
+    "quickselect": "^2.0.0",
+    "rbush": "^3.0.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {}
+}
