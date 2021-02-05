@@ -1,1 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+getPokemonDescription:
+    methods: GET
+    path: /Pokemon/{pokemonName}
+    defaults: { _controller: 'Ioser\pokemon\Controller\PokemonApi::getPokemonDetails' }
 
