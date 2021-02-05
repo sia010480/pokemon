@@ -1,1 +1,160 @@
+/* 
+    Created on : Sep 4, 2020, 10:22:39 AM
+    Author     : Ioser Esoft Development (ionut serbanescu)
+*/
+.custom-toggler .navbar-toggler { 
+    border-color: rgb(221,29,40);
+}
+
+.custom-toggler .navbar-toggler:active { 
+    border-color: rgb(221,29,40);
+}
+
+.custom-toggler .navbar-toggler:checked { 
+    border-color: rgb(221,29,40);
+}
+
+.custom-toggler .navbar-toggler-icon { 
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(221, 29, 40, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        }
+.navbar {
+  min-height: 80px;
+  border-bottom: 3px solid rgb(221,29,40);
+}
+.nav-item {
+    background-color: #fff;
+    margin: 5px;
+    border: 2px solid rgb(221,29,40);
+    border-radius: 5px;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(221,29,40);
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(221,29,40);
+    cursor: pointer;
+}
+
+.mobile-menu {
+    display: none;
+    width: auto;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    height: auto;
+    color: rgb(221,29,40);
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid rgb(221,29,40);
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.mobile-menu .nav-link {
+    color: rgb(221,29,40);
+    font-weight: bold;
+    background-color: #fff;
+    width: 100%;
+}
+
+.mobile-menu .nav-link:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(221,29,40);
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: rgb(221,29,40);
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+
+.container{
+    height: 80%;
+}
+
+.footer-content{
+    border-top: 3px solid rgb(221,29,40);
+    border-bottom: 3px solid rgb(221,29,40);
+    height: 60px;
+    background-color: rgb(221,29,40);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.login-window {
+    background-color: #fff;
+    margin: 5px;
+    border: 2px solid rgb(221,29,40);
+    border-radius: 5px;
+    min-height: 400px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.login-logo{
+    height: 80px;
+    float: right;
+}
+
+.login-title-text {
+    text-align: center;
+    width: 100%;
+    color: rgb(221,29,40);
+}
+
+.submit-button {
+    background-color: #fff;
+    border: 2px solid rgb(221,29,40);
+    border-radius: 5px;
+    color: rgb(221,29,40);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.submit-button:hover{
+    background-color: rgb(221,29,40);
+    color: #fff;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+    line-height: 27px;
+  }
+}
 
